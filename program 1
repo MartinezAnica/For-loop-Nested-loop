@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Loop to print numbers from 10 down to 0
+    for (int i = 10;
+     i >= 0; i--) 
+     // Print the current value of i
+        std::cout << i << " ";
+ // Print a new line after the loop
+ std::cout << std::endl;
+
+    return 0;
+}
